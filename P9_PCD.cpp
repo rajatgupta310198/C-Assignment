@@ -33,7 +33,7 @@ class Employee{
 };
 int main()
 {
-	 Employee *E = new Employee("Mahima","Neuro","mahimakumar@gmail.com",18,7500000);      // allocating memory  at runtime
+	 Employee *E = new Employee("Martin","Neuro","mk@gmail.com",18,7500000);      // allocating memory  at runtime
      E->Show();
      delete E;
 	return 0;
